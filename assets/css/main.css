@@ -74,6 +74,21 @@ input, select, textarea {
 
 /* Basic */
 
+.about-us-section{
+	margin: 8% 5% 0
+}
+
+.quote {
+	margin: 16% 5% 0
+}
+
+.copyright {
+	margin-top: 45%
+}
+ .special {
+	 margin-top: 10%
+ }
+ 
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -2228,19 +2243,22 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1rem;
+		
 	}
 
 		ul li {
 			padding-left: 0.325rem;
+			
 		}
 
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
+			margin: 30px;
+			
 		}
 
 			ul.alt li {
-				border-top: solid 1px rgba(255, 255, 255, 0.25);
 				padding: 0.75rem 0;
 			}
 
@@ -2251,6 +2269,8 @@ input, select, textarea {
 
 				ul.alt li:last-child {
 					padding-bottom: 0;
+					border-top: solid 1px rgba(255, 255, 255, 0.25);
+
 				}
 
 	dl {
